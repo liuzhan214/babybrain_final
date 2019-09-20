@@ -1,0 +1,8 @@
+./data/training/subject-1-T1.hdr ./data/training/subject-1-T2.hdr ./data/training/subject-1-label.hdr
+./data/training/subject-2-T1.hdr ./data/training/subject-2-T2.hdr ./data/training/subject-2-label.hdr
+./data/training/subject-3-T1.hdr ./data/training/subject-3-T2.hdr ./data/training/subject-3-label.hdr
+./data/training/subject-4-T1.hdr ./data/training/subject-4-T2.hdr ./data/training/subject-4-label.hdr
+./data/training/subject-5-T1.hdr ./data/training/subject-5-T2.hdr ./data/training/subject-5-label.hdr
+./data/training/subject-6-T1.hdr ./data/training/subject-6-T2.hdr ./data/training/subject-6-label.hdr
+./data/training/subject-7-T1.hdr ./data/training/subject-7-T2.hdr ./data/training/subject-7-label.hdr
+./data/training/subject-8-T1.hdr ./data/training/subject-8-T2.hdr ./data/training/subject-8-label.hdr

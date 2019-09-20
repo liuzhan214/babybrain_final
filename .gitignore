@@ -1,0 +1,7 @@
+/data/*/*.img
+/data/*/*.hdr
+/output/*.hdr
+/output/*.img
+/output/*.mat
+/output/*/*.png
+

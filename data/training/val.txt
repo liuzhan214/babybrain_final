@@ -1,0 +1,1 @@
+./data/training/subject-10-T1.hdr ./data/training/subject-10-T2.hdr ./data/training/subject-10-label.hdr

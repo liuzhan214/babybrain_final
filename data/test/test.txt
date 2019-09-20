@@ -1,0 +1,13 @@
+./data/test/subject-11-T1.hdr ./data/test/subject-11-T2.hdr
+./data/test/subject-12-T1.hdr ./data/test/subject-12-T2.hdr
+./data/test/subject-13-T1.hdr ./data/test/subject-13-T2.hdr
+./data/test/subject-14-T1.hdr ./data/test/subject-14-T2.hdr
+./data/test/subject-15-T1.hdr ./data/test/subject-15-T2.hdr
+./data/test/subject-16-T1.hdr ./data/test/subject-16-T2.hdr
+./data/test/subject-17-T1.hdr ./data/test/subject-17-T2.hdr
+./data/test/subject-18-T1.hdr ./data/test/subject-18-T2.hdr
+./data/test/subject-19-T1.hdr ./data/test/subject-19-T2.hdr
+./data/test/subject-20-T1.hdr ./data/test/subject-20-T2.hdr
+./data/test/subject-21-T1.hdr ./data/test/subject-21-T2.hdr
+./data/test/subject-22-T1.hdr ./data/test/subject-22-T2.hdr
+./data/test/subject-23-T1.hdr ./data/test/subject-23-T2.hdr
