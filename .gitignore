@@ -4,4 +4,5 @@
 /output/*.img
 /output/*.mat
 /output/*/*.png
+*.pyc
 

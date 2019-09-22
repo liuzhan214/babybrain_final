@@ -45,7 +45,8 @@ if __name__ == '__main__':
     # prepare weight storage path
     # save_path = './weight/denseunet_8_images.pth'
     # load_path = './weight/densenet9.pth'
-    load_path = './weight/densenet9_v3.pth'
+    # load_path = './weight/densenet9_v3.pth'
+    load_path = './weight/densenet9_v4_batch3.pth'
     if os.path.exists(load_path):
         model.load_state_dict(torch.load(load_path))
         model.eval()
@@ -55,7 +56,7 @@ if __name__ == '__main__':
         best_iou = (val_iou['Cerebrospinal fluid'] + val_iou['Gray matter'] + val_iou['White matter'])/3
         print('loss = {} avg_iou = {}'.format(val_loss,best_iou))
         print('Cerebrospinal fluid:{:.3f} Gray matter:{:.3f} White matter:{:.3f}'.format(val_iou['Cerebrospinal fluid'],val_iou['Gray matter'],val_iou['White matter']))
-    save_path = './weight/densenet9_v3.pth'
+    save_path = './weight/densenet9_v4_batch3.pth'
     
     for epoch in range(EPOCHES):
         train_loss = 0

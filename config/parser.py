@@ -1,9 +1,9 @@
 import argparse
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--epoches", type=int, default=1000, help="number of epochs")
-parser.add_argument("--lr", type=int, default=1e-4, help="number of epochs")
-parser.add_argument("--batch_size", type=int, default=2, help="size of each image batch")
+parser.add_argument("--epoches", type=int, default=300, help="number of epochs")
+parser.add_argument("--lr", type=int, default=3e-4, help="number of epochs")
+parser.add_argument("--batch_size", type=int, default=3, help="size of each image batch")
 parser.add_argument("--frames", type=int, default=64, help="size of cut continuious frames")
 parser.add_argument("--cut_height", type=int, default=64, help="size of cut height")
 parser.add_argument("--cut_width", type=int, default=64, help="size of cut width")
