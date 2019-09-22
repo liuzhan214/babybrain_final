@@ -182,9 +182,11 @@ class DenseUNet(nn.Module):
         self.firstblock = nn.Sequential(
             ConvBNReLU(2,first_blcok_config[0]),
             ConvBNReLU(first_blcok_config[0],first_blcok_config[1]),
-            ConvBNReLU(first_blcok_config[1],first_blcok_config[2])
+            # ConvBNReLU(first_blcok_config[1],first_blcok_config[2])
+            nn.Conv3d(first_blcok_config[1],first_blcok_config[2],kernel_size=3,stride=1,padding=1,bias=False)
         )
-        self.downsample_conv = nn.Conv3d(first_blcok_config[-1],first_blcok_config[-1],kernel_size=2,stride=2,padding=0,bias=False)
+        # self.downsample_conv = nn.Conv3d(first_blcok_config[-1],first_blcok_config[-1],kernel_size=2,stride=2,padding=0,bias=False)
+        self.downsample_conv = DownSampleBlock(first_blcok_config[-1],first_blcok_config[-1])
 
         self.contraction_path = nn.ModuleList()
         self.expansion_path = nn.ModuleList()
